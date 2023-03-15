@@ -1,0 +1,39 @@
+.Login {
+  height: 100vh;
+
+  & > * {
+    height: 100%;
+  }
+
+  .captcha {
+    width: 100%;
+    @include flex-center();
+  }
+
+  .image {
+    @include flex-center();
+    height: 100%;
+    background-color: #ffffff;
+    padding: 2rem;
+    background: linear-gradient(90deg, #2468ed 22.8%, #24aaed 99.86%);
+  }
+
+  .login-form {
+    @include flex-column();
+    justify-content: center;
+    background-color: #fff;
+    height: 100%;
+    padding: 4rem;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .copyright {
+    color: #595959;
+    text-align: center;
+    letter-spacing: 0.02rem;
+    font-size: 1.2rem;
+  }
+}

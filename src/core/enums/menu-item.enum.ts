@@ -1,0 +1,9 @@
+export enum MenuItemEnum {
+  CALL = 'CALL',
+  DASHBOARD = 'DASHBOARD',
+  ROOM = 'ROOM',
+  GROUP = 'GROUP',
+  ADMINISTRATION = 'ADMINISTRATION',
+  ADMIN_DEVICE = 'DEVICE',
+  ADMIN_USER = 'USER'
+}

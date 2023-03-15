@@ -1,0 +1,52 @@
+export const PATH_NAME = {
+  DASHBOARD: '/dashboard',
+  ONLINE_MONITORING: '/giam-sat-truc-tuyen',
+  FIRE_PROTECTION_UNIT: {
+    BASE: '/don-vi-phong-chay',
+    UNIT_MANAGEMENT: '/don-vi-phong-chay/quan-ly-don-vi',
+    UNIT_DETAIL: '/don-vi-phong-chay/chi-tiet-don-vi',
+    DUTY_SCHEDULE: '/don-vi-phong-chay/lich-truc',
+  },
+  FIRE_PREVENTION_WORK: {
+    BASE: '/cong-tac-phong-chay',
+    CONSTRUCTION_MANAGEMENT: '/cong-tac-phong-chay/quan-ly-co-so-cong-trinh',
+    CERTIFICATION_ASSESSMENT: '/cong-tac-phong-chay/tham-duyet-chung-nhan',
+    SO_CU_KIEM_TRA: '/cong-tac-phong-chay/so-cu-kiem-tra',
+    TEST_PLAN: '/cong-tac-phong-chay/ke-hoach-kiem-tra',
+    TRANINING_PROPAGANDA: '/cong-tac-phong-chay/tuyen-truyen-huan-luyen',
+    HANDLING_VIOLATIONS: '/cong-tac-phong-chay/xu-ly-vu-pham',
+  },
+  FIRE_FIGHTING_WORK: {
+    BASE: '/cong-tac-chua-chay',
+    LIST_OF_FIRE_SPOTS: '/cong-tac-chua-chay/danh-sach-diem-chay',
+    PRACTICE_BUILDING_FIRE_FIGHTING_PLANS: '/cong-tac-chua-chay/xay-dung-phuong-an-thuc-tap',
+    RESCUE_WORK: '/cong-tac-chua-chay/cong-tac-cuu-nan-cuu-ho',
+  },
+  DEVICE_MANAGEMENT: {
+    BASE: '/quan-ly-thiet-bi',
+    DEVICE_CENTER: '/quan-ly-thiet-bi/thiet-bi-trung-tam',
+    SENSOR: '/quan-ly-thiet-bi/cam-bien',
+  },
+  REPORT: {
+    BASE: '/bao-cao',
+    CONSTRUCTION: '/bao-cao/co-so-cong-trinh',
+    DEVICE_INSTALLATION: '/bao-cao/thiet-bi-lap-dat',
+    VEHICLE: '/bao-cao/phuong-tien',
+    FIRE_POINT: '/bao-cao/diem-chay',
+  },
+  USER: {
+    BASE: '/nguoi-dung',
+    USER_MANAGEMENT: '/nguoi-dung/quan-ly-nguoi-dung',
+    CUSTOMER_MANAGEMENT: '/nguoi-dung/quan-ly-khach-hang',
+    LOGIN_HISTORY: '/nguoi-dung/lich-su-dang-nhap',
+    PERMISSION_MANAGEMENT: '/nguoi-dung/quan-ly-phan-quyen',
+  },
+  QUALITY_MANAGEMENT: {
+    BASE: '/quan-ly-chat-luong',
+    ERROR_MANAGEMENT: '/quan-ly-chat-luong/quan-ly-loi',
+    DEVICE_TYPE_MANAGEMENT: '/quan-ly-chat-luong/quan-ly-loai-thiet-bi',
+    PRODUCTION_REPORT: '/quan-ly-chat-luong/bao-cao-ket-qua-san-xuat',
+    DETAIL_REPORT: '/quan-ly-chat-luong/bao-cao-chi-tiet',
+    SUMMARY: '/quan-ly-chat-luong/tong-hop',
+  },
+};
